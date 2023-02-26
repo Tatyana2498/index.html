@@ -1,0 +1,62 @@
+.class {
+	background-color: rgb(220, 223, 236);
+	width: 900px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 700;
+}
+
+.title, 
+.putt,
+aside,
+content {
+	padding: 10px; 
+}
+
+.menu {
+	padding-top: 20px;
+	padding-bottom: 30px;
+} 
+
+.putt {
+	background-color: antiquewhite;
+	align-self: center;
+	flex-grow: 1;
+}
+	
+.content {
+	background-color: orange;
+	align-self: center;
+	flex-grow: 1;
+}
+
+.content,
+.flex {
+	margin: 10px;
+}
+
+.aside {
+	background-color: greenyellow;
+	flex-wrap: wrap;
+	align-items: stretch;
+	width: 350px;
+}
+
+.main {
+	align-self: center;
+	flex-grow: 1;
+}
+
+ .footer,
+ .div,
+ .main {
+	display: flex;
+ }
+
+.footer {
+background-color: rgb(220, 223, 236);
+padding: 10px 15px;
+align-self: center;
+flex-grow: 1;
+justify-content: space-between;
+}
